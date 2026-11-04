@@ -214,11 +214,6 @@ jupyter notebook
 
 Open `Adult_Income_Binary_Classification.ipynb`, ensure `adult.csv` is in the same directory, and run the notebook cells from top to bottom.
 
-### 4. Export the notebook to HTML
-
-```bash
-jupyter nbconvert --to html Adult_Income_Binary_Classification.ipynb --output DL_PR2.html
-```
 
 ## Requirements
 
@@ -235,15 +230,6 @@ jupyter
 nbconvert
 ```
 
-## Video Demonstration
-
-- **Duration:** 5–10 minutes
-- **Format:** MP4 or MOV (maximum 500 MB)
-- **Recording:** Notebook screen with face visible in a picture-in-picture webcam overlay.
-- **Suggested filename:** `DL_PR2_YourName_GRID.mp4`
-- **Video link:** `[Add your Google Drive or unlisted YouTube URL here]`
-
-Explain the preprocessing decisions, MLP architecture, activation functions, weight initialization, loss functions, Batch Normalization and optimizers. Add the viewable video URL here before submission.
 
 ## Suggested Git Commit History
 
@@ -256,11 +242,6 @@ git commit -m "Add Adult Income dataset and initial notebook"
 git add Adult_Income_Binary_Classification.ipynb
 git commit -m "Add data preprocessing and EDA"
 
-git add Adult_Income_Binary_Classification.ipynb plots/
-git commit -m "Add ANN experiments and model evaluation"
-
-git add README.md requirements.txt DL_PR2.html
-git commit -m "Add project documentation and HTML export"
 ```
 
 ## Conclusion
