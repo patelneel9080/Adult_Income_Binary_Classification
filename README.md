@@ -20,19 +20,7 @@ A Deep Learning project using a Multilayer Perceptron (MLP) built with TensorFlo
 Adult_Income_Binary_Classification/
 ├── Adult_Income_Binary_Classification.ipynb
 ├── adult.csv
-├── DL_PR2.html
-├── requirements.txt
 ├── README.md
-└── plots/
-    ├── eda_class_balance.png
-    ├── activation_comparison.png
-    ├── initialiser_convergence.png
-    ├── weight_distributions.png
-    ├── loss_f1_comparison.png
-    ├── batchnorm_dynamics.png
-    ├── optimiser_convergence.png
-    ├── roc_curves.png
-    └── results_table.png
 ```
 
 *Add the HTML export and saved plot images after generating them in the notebook.*
@@ -202,22 +190,6 @@ After running the experiments, report:
 - Did Batch Normalization improve convergence or the train-validation gap?
 - Which optimizer achieved the best class-1 F1 and converged fastest?
 - Which single technique had the largest measured impact on minority-class F1?
-
-## Visualizations
-
-Save the generated figures in the `plots/` directory using descriptive filenames.
-
-| Plot file | Description |
-|---|---|
-| `eda_class_balance.png` | Distribution of the two income classes |
-| `activation_comparison.png` | Training and validation accuracy for four activations |
-| `initialiser_convergence.png` | Validation accuracy for five initializers |
-| `weight_distributions.png` | Initial and trained weight distributions |
-| `loss_f1_comparison.png` | Class-1 precision, recall and F1 across loss strategies |
-| `batchnorm_dynamics.png` | Training dynamics with and without BatchNorm |
-| `optimiser_convergence.png` | Validation accuracy for optimizer experiments |
-| `roc_curves.png` | ROC curves and AUC for selected models |
-| `results_table.png` | Final model comparison table |
 
 ## Installation and Usage
 
